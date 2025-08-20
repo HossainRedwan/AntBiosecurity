@@ -1,0 +1,117 @@
+ClassID,SpeciesName,MainClass,Target
+1,Anoplolepis_gracilipes,Anoplolepis_gracilipes - Target,True
+2,Plagiolepis_alluaudi,Anoplolepis_gracilipes - Target,True
+3,Oecophylla_smaragdina,Anoplolepis_gracilipes - Target,True
+4,Camponotus extensus,Anoplolepis_gracilipes - Target,True
+5,Camponotus_spp.,Anoplolepis_gracilipes - Target,True
+6,Monomorium_floricola,Bicoloured_ants_NT,False
+7,Opisthopsis_picta,Bicoloured_ants_NT,False
+8,Opisthopsis_haddoni,Bicoloured_ants_NT,False
+9,Camponotus_sp_nov_gp,Bicoloured_ants_NT,False
+10,Leptomyrmex_rufipes,Bicoloured_ants_NT,False
+11,Podomyrma_adelaidae,Bicoloured_ants_NT,False
+12,Chelaner_kiliani,Bicoloured_ants_NT,False
+13,Camponotus rubiginosus,Bicoloured_ants_NT,False
+14,Chelaner rubriceps,Bicoloured_ants_NT,False
+15,Camponotus_aeneopilosus,Large_black_ants_NT,False
+16,Camponotus_sp_9,Large_black_ants_NT,False
+17,Camponotus_sp_A,Large_black_ants_NT,False
+18,Camponotus_bigenus,Large_black_ants_NT,False
+19,Camponotus hartogi,Large_black_ants_NT,False
+20,Camponotus intrepidus,Large_black_ants_NT,False
+21,Camponotus mackayensis,Large_black_ants_NT,False
+22,Camponotus_novaehollandiae,Large_black_ants_NT,False
+23,Camponotus_terebrans,Large_black_ants_NT,False
+24,Camponotus thadeus,Large_black_ants_NT,False
+25,Diacamma_leve,Large_black_ants_NT,False
+26,Bothroponera_denticulata,Large_black_ants_NT,False
+27,Iridomyrmex mayri,Large_black_ants_NT,False
+28,Lepisiota_frauenfeldi,Lepisiota_frauenfeldi - Target,True
+29,Paratrechina_longicornis,Lepisiota_frauenfeldi - Target,True
+30,Camponotus ephippium,Lepisiota_frauenfeldi - Target,True
+31,Linepithema_humile,Linepithema_humile - Target,True
+32,Iridomyrmex_suchieri,Linepithema_humile - Target,True
+33,Iridomyrmex_pallidus,Linepithema_humile - Target,True
+34,Iridomyrmex_sanguineus,Meat_ants_NT,False
+35,Iridomyrmex_reburrus,Meat_ants_NT,False
+36,Iridomyrmex_purpureus,Meat_ants_NT,False
+37,Iridomyrmex_purpureus_gp,Meat_ants_NT,False
+38,Aphaenogaster_longiceps,Orange_ants_NT,False
+39,Aphaenogaster_poultoni,Orange_ants_NT,False
+40,Aphaenogaster_pythia,Orange_ants_NT,False
+41,Arnoldius_pusillus,Orange_ants_NT,False
+42,Papyrius_nitidus,Orange_ants_NT,False
+43,Ooceraea_australis,Orange_ants_NT,False
+44,Acropyga_acutiventris,Orange_ants_NT,False
+45,Acropyga pallida,Orange_ants_NT,False
+46,Aenicus diclops,Orange_ants_NT,False
+47,Cardiocondyla_nuda,Orange_ants_NT,False
+48,Cardiocondyla_nuda_atalanta,Orange_ants_NT,False
+49,Cardiocondyla wroughtonii,Orange_ants_NT,False
+50,Pheidole_megacephala,Pheidole_megacephala - Target,True
+51,Pheidole_spp,Pheidole_megacephala - Target,True
+52,Pheidole_sp,Pheidole_megacephala - Target,True
+53,Pheidole_QM1,Pheidole_megacephala - Target,True
+54,Pheidole_QM2,Pheidole_megacephala - Target,True
+55,Pheidole_QM3,Pheidole_megacephala - Target,True
+56,Pheidole_QM8,Pheidole_megacephala - Target,True
+57,Pheidole_QM10,Pheidole_megacephala - Target,True
+58,Carebara_affinis,Pheidole_megacephala - Target,True
+59,Pheidole_murdoch1,Pheidole_megacephala - Target,True
+60,Pheidole_murdoch2,Pheidole_megacephala - Target,True
+61,Camponotus_confusus,Pheidole_megacephala - Target,True
+62,Rhytidoponera_victoriae,Pony_ants_NT,False
+63,Rhytidoponera_metallica,Pony_ants_NT,False
+64,Anonychomyrma_sp_A,Small_black_ants_NT,False
+65,Anonychomyrma_sp,Small_black_ants_NT,False
+66,Anonychomyrma_gilberti,Small_black_ants_NT,False
+67,Anonychomyrma_itinerans_perthensis,Small_black_ants_NT,False
+68,Calomyrmex_cf_albopilosus,Small_black_ants_NT,False
+69,Calomyrmex p.,Small_black_ants_NT,False
+70,Chelaner_albipes,Small_black_ants_NT,False
+71,Colobopsis_vitrea,Small_black_ants_NT,False
+73,Ochetellus_glaber,Small_black_ants_NT,False
+74,Technomyrmex_jocosus,Small_black_ants_NT,False
+75,Nylanderia_QM1,Small_black_ants_NT,False
+76,Nylanderia_QM3,Small_black_ants_NT,False
+77,Iridomyrmex_sp2_mattiroloi_gp,Small_black_ants_NT,False
+78,Iridomyrmex_chasei,Small_black_ants_NT,False
+79,Iridomyrmex_anceps,Small_black_ants_NT,False
+80,Iridomyrmex_cyaneus,Small_black_ants_NT,False
+81,Iridomyrmex_spp,Small_black_ants_NT,False
+82,Solenopsis_geminata,Solenopsis_Target,True
+83,Solenopsis_invicta,Solenopsis_Target,True
+84,Trichomyrmex_mayri,Solenopsis_Target,True
+85,Tetramorium_bicarinatum,Solenopsis_Target,True
+86,Trichomyrmex_destructor,Solenopsis_Target,True
+87,Monomorium_rothsteini,Solenopsis_Target,True
+88,Brachyponera_lutea,Solenopsis_Target,True
+89,Crematogaster_QM1,Spiny_ants_NT,False
+90,Crematogaster_QM3,Spiny_ants_NT,False
+91,Crematogaster_clarior,Spiny_ants_NT,False
+92,Dolichoderus_scrobiculatus,Spiny_ants_NT,False
+93,Dolichoderus_scabridus,Spiny_ants_NT,False
+94,Dolichoderus_extensispinus,Spiny_ants_NT,False
+95,Polyrhachis_ammon,Spiny_ants_NT,False
+96,Polyrhachis_brisbanensis,Spiny_ants_NT,False
+97,Polyrhachis_rufifemur,Spiny_ants_NT,False
+98,Polyrhachis_spp,Spiny_ants_NT,False
+99,Crematogaster_spp,Spiny_ants_NT,False
+100,Amblyopone_australis,Trap_jaw_ants_NT,False
+101,Odontomachus_sp_nr_turneri,Trap_jaw_ants_NT,False
+102,Odontomachus_turneri,Trap_jaw_ants_NT,False
+103,Anochetus_alae,Trap_jaw_ants_NT,False
+104,Anochetus graeffei,Trap_jaw_ants_NT,False
+105,Wasmannia_auropunctata,Wasmannia_auropunctata - Target,True
+106,Tetramorium_simillimum,Wasmannia_auropunctata - Target,True
+107,Tapinoma_melanocephalum,Wasmannia_auropunctata - Target,True
+108,Tapinoma_QMA1,Wasmannia_auropunctata - Target,True
+109,Tapinoma_sp_1,Wasmannia_auropunctata - Target,True
+110,Myrmecia_mjobergi,Bull ants - NT,False
+111,Myrmecia nigriscapa,Bull ants - NT,False
+112,Myrmecia nigriceps,Bull ants - NT,False
+113,Myrmecia piliventris,Bull ants - NT,False
+114,Myrmecia pilosula,Bull ants - NT,False
+115,Myrmecia pulchra,Bull ants - NT,False
+116,Myrmecina nigrocincta,Bull ants - NT,False
+117,sample_ants,,
