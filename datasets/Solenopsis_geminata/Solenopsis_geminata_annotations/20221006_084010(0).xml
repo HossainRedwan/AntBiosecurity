@@ -1,0 +1,39 @@
+<?xml version="1.0" ?>
+<annotation>
+  <folder>Solenopsis_geminata_annotations</folder>
+  <filename>20221006_084010(0).jpg</filename>
+  <path>datasets\Solenopsis_geminata\Solenopsis_geminata_annotations</path>
+  <source>
+    <database>Unknown</database>
+  </source>
+  <size>
+    <width>4032</width>
+    <height>3024</height>
+    <depth>3</depth>
+  </size>
+  <segmented>0</segmented>
+  <object>
+    <name>Solenopsis_geminata</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>3456</xmin>
+      <ymin>1188</ymin>
+      <xmax>3726</xmax>
+      <ymax>1370</ymax>
+    </bndbox>
+  </object>
+  <object>
+    <name>Solenopsis_geminata</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>1956</xmin>
+      <ymin>1419</ymin>
+      <xmax>2138</xmax>
+      <ymax>1547</ymax>
+    </bndbox>
+  </object>
+</annotation>

@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<annotation>
+  <folder>Solenopsis_geminata_annotations</folder>
+  <filename>Solenopsis_geminata_Texas_220511_211.tif</filename>
+  <path>datasets\Solenopsis_geminata\Solenopsis_geminata_annotations</path>
+  <source>
+    <database>Unknown</database>
+  </source>
+  <size>
+    <width>1500</width>
+    <height>1000</height>
+    <depth>3</depth>
+  </size>
+  <segmented>0</segmented>
+  <object>
+    <name>Solenopsis_geminata</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>635</xmin>
+      <ymin>139</ymin>
+      <xmax>961</xmax>
+      <ymax>416</ymax>
+    </bndbox>
+  </object>
+</annotation>
