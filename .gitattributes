@@ -1,1 +1,2 @@
+*.pt filter=lfs diff=lfs merge=lfs -text
 models/ant_detector_fasterRcnn.pt filter=lfs diff=lfs merge=lfs -text
