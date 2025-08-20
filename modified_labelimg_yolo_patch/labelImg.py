@@ -1,7 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 import argparse
-import os
 import codecs
 import os.path
 import platform
@@ -91,7 +90,19 @@ class MainWindow(QMainWindow, WindowMixin):
 
         # Save as Pascal voc xml
         self.default_save_dir = default_save_dir
-        self.label_file_format = settings.get(SETTING_LABEL_FILE_FORMAT, LabelFileFormat.PASCAL_VOC)
+        self.label_file_format = settings.get(SETTING_LABEL_FILE_FORMAT, LabelFileFormat.YOLO)
+
+# Ensure default file suffix matches the selected label format at startup
+try:
+    if self.label_file_format == LabelFileFormat.YOLO:
+        LabelFile.suffix = TXT_EXT
+    elif self.label_file_format == LabelFileFormat.PASCAL_VOC:
+        LabelFile.suffix = XML_EXT
+    elif self.label_file_format == LabelFileFormat.CREATE_ML:
+        LabelFile.suffix = JSON_EXT
+except Exception:
+    pass
+
 
         # For loading all image under a directory
         self.m_img_list = []
@@ -917,61 +928,6 @@ class MainWindow(QMainWindow, WindowMixin):
         except LabelFileError as e:
             self.error_message(u'Error saving label data', u'<b>%s</b>' % e)
             return False
-        
-    def _save_annotations_to_multi_dirs(self, base_save_dir, image_basename_no_ext):
-        """
-        Save both .xml and .txt in XML_and_TXT,
-        only .xml in XML_Only,
-        only .txt in TXT_Only.
-        Does NOT create folders.
-        """
-        if self.label_file is None:
-            self.label_file = LabelFile()
-        self.label_file.verified = self.canvas.verified
-
-        def format_shape(s):
-            return dict(
-                label=s.label,
-                line_color=s.line_color.getRgb(),
-                fill_color=s.fill_color.getRgb(),
-                points=[(p.x(), p.y()) for p in s.points],
-                difficult=s.difficult
-            )
-
-        shapes = [format_shape(shape) for shape in self.canvas.shapes]
-
-        xml_txt_dir = os.path.join(base_save_dir, "XML_and_TXT")
-        xml_only_dir = os.path.join(base_save_dir, "XML_Only")
-        txt_only_dir = os.path.join(base_save_dir, "TXT_Only")
-
-        xml_in_both = os.path.join(xml_txt_dir, image_basename_no_ext + XML_EXT)
-        txt_in_both = os.path.join(xml_txt_dir, image_basename_no_ext + TXT_EXT)
-        xml_only = os.path.join(xml_only_dir, image_basename_no_ext + XML_EXT)
-        txt_only = os.path.join(txt_only_dir, image_basename_no_ext + TXT_EXT)
-
-        # Save Pascal VOC
-        self.label_file.save_pascal_voc_format(
-            xml_in_both, shapes, self.file_path, self.image_data,
-            self.line_color.getRgb(), self.fill_color.getRgb()
-        )
-        self.label_file.save_pascal_voc_format(
-            xml_only, shapes, self.file_path, self.image_data,
-            self.line_color.getRgb(), self.fill_color.getRgb()
-        )
-
-        # Save YOLO
-        self.label_file.save_yolo_format(
-            txt_in_both, shapes, self.file_path, self.image_data, self.label_hist,
-            self.line_color.getRgb(), self.fill_color.getRgb()
-        )
-        self.label_file.save_yolo_format(
-            txt_only, shapes, self.file_path, self.image_data, self.label_hist,
-            self.line_color.getRgb(), self.fill_color.getRgb()
-        )
-
-        return True
-
-
 
     def copy_selected_shape(self):
         self.add_label(self.canvas.copy_selected_shape())
@@ -1556,35 +1512,12 @@ class MainWindow(QMainWindow, WindowMixin):
             else:
                 return full_file_path
         return ''
-                 
 
     def _save_file(self, annotation_file_path):
-        # Parent-aware save; no image-dir fallback; do NOT create folders.
-        if not (self.default_save_dir and len(ustr(self.default_save_dir))):
-            self.error_message('Please set Save Dir to one of: XML_Only, TXT_Only, or XML_and_TXT.')
-            return
-
-        selected_dir = os.path.normpath(ustr(self.default_save_dir))
-        leaf = os.path.basename(selected_dir)
-        base_save_dir = os.path.dirname(selected_dir) if leaf in {"XML_and_TXT", "XML_Only", "TXT_Only"} else selected_dir
-
-        # Require existing target folders; do not create new ones.
-        xml_txt_dir = os.path.join(base_save_dir, "XML_and_TXT")
-        xml_only_dir = os.path.join(base_save_dir, "XML_Only")
-        txt_only_dir = os.path.join(base_save_dir, "TXT_Only")
-        for d in (xml_txt_dir, xml_only_dir, txt_only_dir):
-            if not os.path.isdir(d):
-                self.error_message('Required folder missing: %s' % d)
-                return
-
-        image_file_name = os.path.basename(self.file_path)
-        basename_no_ext = os.path.splitext(image_file_name)[0]
-
-        if self._save_annotations_to_multi_dirs(base_save_dir, basename_no_ext):
+        if annotation_file_path and self.save_labels(annotation_file_path):
             self.set_clean()
-            self.statusBar().showMessage('Saved XML/TXT to XML_and_TXT; XML to XML_Only; TXT to TXT_Only under %s' % base_save_dir)
+            self.statusBar().showMessage('Saved to  %s' % annotation_file_path)
             self.statusBar().show()
-
 
     def close_file(self, _value=False):
         if not self.may_continue():
