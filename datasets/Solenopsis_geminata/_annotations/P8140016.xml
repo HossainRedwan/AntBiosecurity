@@ -1,0 +1,39 @@
+<?xml version="1.0" ?>
+<annotation>
+  <folder>_annotations</folder>
+  <filename>P8140016.JPG</filename>
+  <path>datasets\Solenopsis_geminata\_annotations</path>
+  <source>
+    <database>Unknown</database>
+  </source>
+  <size>
+    <width>3072</width>
+    <height>2304</height>
+    <depth>3</depth>
+  </size>
+  <segmented>0</segmented>
+  <object>
+    <name>Solenopsis_geminata</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>2391</xmin>
+      <ymin>159</ymin>
+      <xmax>2618</xmax>
+      <ymax>389</ymax>
+    </bndbox>
+  </object>
+  <object>
+    <name>Solenopsis_geminata</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>2557</xmin>
+      <ymin>789</ymin>
+      <xmax>2735</xmax>
+      <ymax>962</ymax>
+    </bndbox>
+  </object>
+</annotation>

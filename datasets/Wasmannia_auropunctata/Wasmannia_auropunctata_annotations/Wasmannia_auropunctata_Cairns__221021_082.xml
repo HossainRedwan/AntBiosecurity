@@ -1,0 +1,39 @@
+<?xml version="1.0" ?>
+<annotation>
+  <folder>Wasmannia_auropunctata_annotations</folder>
+  <filename>Wasmannia_auropunctata_Cairns__221021_082.tif</filename>
+  <path>datasets\Wasmannia_auropunctata\Wasmannia_auropunctata_annotations</path>
+  <source>
+    <database>Unknown</database>
+  </source>
+  <size>
+    <width>2000</width>
+    <height>1334</height>
+    <depth>3</depth>
+  </size>
+  <segmented>0</segmented>
+  <object>
+    <name>Wasmannia_auropunctata</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>605</xmin>
+      <ymin>470</ymin>
+      <xmax>1260</xmax>
+      <ymax>1005</ymax>
+    </bndbox>
+  </object>
+  <object>
+    <name>Wasmannia_auropunctata</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>1722</xmin>
+      <ymin>686</ymin>
+      <xmax>1999</xmax>
+      <ymax>1083</ymax>
+    </bndbox>
+  </object>
+</annotation>
