@@ -1,4 +1,0 @@
-0: Lepisiota_frauenfeldi
-1: sample_ants
-2: Solenopsis_geminata
-3: Wasmannia_auropunctata
