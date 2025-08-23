@@ -1,0 +1,142 @@
+Anoplolepis_gracilipes
+Plagiolepis_alluaudi
+Oecophylla_smaragdina
+Camponotus extensus
+Camponotus_spp.
+Monomorium_floricola
+Opisthopsis_picta
+Opisthopsis_haddoni
+Camponotus_sp_nov_gp
+Leptomyrmex_rufipes
+Podomyrma_adelaidae
+Chelaner_kiliani
+Camponotus rubiginosus
+Chelaner rubriceps
+Camponotus_aeneopilosus
+Camponotus_sp_9
+Camponotus_sp_A
+Camponotus_bigenus
+Camponotus hartogi
+Camponotus intrepidus
+Camponotus mackayensis
+Camponotus_novaehollandiae
+Camponotus_terebrans
+Camponotus thadeus
+Diacamma_leve
+Bothroponera_denticulata
+Iridomyrmex mayri
+Lepisiota_frauenfeldi
+Paratrechina_longicornis
+Camponotus ephippium
+Linepithema_humile
+Iridomyrmex_suchieri
+Iridomyrmex_pallidus
+Iridomyrmex_sanguineus
+Iridomyrmex_reburrus
+Iridomyrmex_purpureus
+Iridomyrmex_purpureus_gp
+Aphaenogaster_longiceps
+Aphaenogaster_poultoni
+Aphaenogaster_pythia
+Arnoldius_pusillus
+Papyrius_nitidus
+Ooceraea_australis
+Acropyga_acutiventris
+Acropyga pallida
+Aenicus diclops
+Cardiocondyla_nuda
+Cardiocondyla_nuda_atalanta
+Cardiocondyla wroughtonii
+Pheidole_megacephala
+Pheidole_spp
+Pheidole_sp
+Pheidole_QM1
+Pheidole_QM2
+Pheidole_QM3
+Pheidole_QM8
+Pheidole_QM10
+Carebara_affinis
+Pheidole_murdoch1
+Pheidole_murdoch2
+Camponotus_confusus
+Rhytidoponera_victoriae
+Rhytidoponera_metallica
+Anonychomyrma_sp_A
+Anonychomyrma_sp
+Anonychomyrma_gilberti
+Anonychomyrma_itinerans_perthensis
+Calomyrmex_cf_albopilosus
+Calomyrmex p.
+Chelaner_albipes
+Colobopsis_vitrea
+Ochetellus_glaber
+Technomyrmex_jocosus
+Nylanderia_QM1
+Nylanderia_QM3
+Iridomyrmex_sp2_mattiroloi_gp
+Iridomyrmex_chasei
+Iridomyrmex_anceps
+Iridomyrmex_cyaneus
+Iridomyrmex_spp
+Solenopsis_geminata
+Solenopsis_invicta
+Trichomyrmex_mayri
+Tetramorium_bicarinatum
+Trichomyrmex_destructor
+Monomorium_rothsteini
+Brachyponera_lutea
+Crematogaster_QM1
+Crematogaster_QM3
+Crematogaster_clarior
+Dolichoderus_scrobiculatus
+Dolichoderus_scabridus
+Dolichoderus_extensispinus
+Polyrhachis_ammon
+Polyrhachis_brisbanensis
+Polyrhachis_rufifemur
+Polyrhachis_spp
+Crematogaster_spp
+Amblyopone_australis
+Odontomachus_sp_nr_turneri
+Odontomachus_turneri
+Anochetus_alae
+Anochetus graeffei
+Wasmannia_auropunctata
+Tetramorium_simillimum
+Tapinoma_melanocephalum
+Tapinoma_QMA1
+Tapinoma_sp_1
+Myrmecia_mjobergi
+Myrmecia nigriscapa
+Myrmecia nigriceps
+Myrmecia piliventris
+Myrmecia pilosula
+Myrmecia pulchra
+Myrmecina nigrocincta
+sample_ants
+Mixed_species
+Monomorium_sp_laeve_gp
+Monomorium_sp_nigrius_gp
+Podomyrma_maculiventris
+Polyrhachis_cyrtomyrma
+Polyrhachis_cyrus
+Polyrhachis_diversa
+Polyrhachis_lownei
+Polyrhachis_penelope
+Polyrhachis_robsoni
+Polyrhachis_turneri
+Pristomyrmex_foveolatus
+Prolasius_spp
+Pseudoneoponera_porcata
+Rhytidoponera_aurata
+Rhytidoponera_convexa
+Rhytidoponera_purpurea
+Rhytidoponera_rufiventris
+Rhytidoponera_spp
+Rhytidoponera_tenuis
+Rhytidoponera_violacea
+Strumigenys_radix
+Tetramorium_lanuginosum
+Tetramorium_pacificum
+Tetraponera_spp
+Unidentified_natives
